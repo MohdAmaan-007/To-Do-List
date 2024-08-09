@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?cs=srgb&dl=pexels-content-pixie-1405717-2736499.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.container {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 3px 0px 18px #717377;
+    min-width: 400px;
+    min-height: 150px;
+    margin: 20px 20px;
+    background: rgba(224, 224, 224, 0.8) ;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #414141;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    outline: none;
+    background: transparent;
+    color: #000000;
+}
+
+.input-field:focus {
+    border-color: #00bd68;
+    box-shadow: 0 0 5px rgba(23, 255, 112, 0.5);
+}
+
+.button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00bd68;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #009e57;
+}
+
+.button:active {
+    background-color: #008d4e;
+}
+
+.list-container{
+min-width: 100%;
+padding: 0px;
+}
+
+.list-item {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px solid #1f1f1f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #7e7e7e;
+}
+
+.icon-container{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container i {
+    margin: 2px 5px;
+}
